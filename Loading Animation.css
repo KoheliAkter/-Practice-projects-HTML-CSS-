@@ -16,7 +16,8 @@ section{
 section .loader{
     height: 25px;
     width: 25px;
-    background-color: chocolate;
+    position: relative;
+    /*background-color: chocolate;*/
 }
 
 .loader .ball{
@@ -24,28 +25,62 @@ section .loader{
     height: 25px;
     width: 25px;
     background-color: blue;
-    /*border-radius: 50%;*/
+    border-radius: 50%;
 
 }
 
-/*.loader .upper{
+.loader .upper{
     top: -25px;
     left: 0;
-    background-color: crimson;
+    background-color: rgba(222, 14, 56, 0.941);
+    animation: upper 1s infinite;
+}
+
+@keyframes upper{
+    50%,100%{
+        top: 25px;
+    }
 
 }
+
 .loader .right{
     right: -25px;
     bottom: 0;
-    background-color: crimson;
+    background-color: rgb(216, 206, 6);
+    animation: right 1s infinite;
 }
+
+@keyframes right{
+    50%,100%{
+        right: 25px;
+    }
+
+}
+
 .loader .lower{
     bottom: -25px;
     right: 0;
-    background-color: crimson;
+    background-color: rgb(11, 11, 235);
+    animation: lower 1s infinite;
 }
+
+@keyframes lower{
+    50%,100%{
+        bottom: 25px;
+    }
+
+}
+
 .loader .left{
     left: -25px;
     bottom: 0;
-    background-color: crimson;
+    background-color: rgb(69, 227, 7);
+    animation: left 1s infinite;
+}
+
+@keyframes left{
+    50%,100%{
+        left: 25px;
+    }
+
 }
