@@ -20,9 +20,6 @@
     font-size: 25px;
     padding-bottom: 20px;
     padding-top: 5px;
-    
-    
-    
 
 } 
 
@@ -55,7 +52,25 @@
     width: 48%;
     margin-right: 20px;
     margin-top: 30px;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
 }
 
-.Parent_Info_detailsothers
+.Parent_Info_detailsothers label{
+    color: rgb(76, 75, 75);
+    font-size: 18px;
+}
+
+.Parent_Info_detailsothers select{
+    width: 580px;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 3px;
+    font-size: 14px;
+    color: #656363;
+    border: 1px solid rgb(166, 164, 164);
+}
+
+.Parent_Info_detailsothers_radio {
+    margin-top: 30px;
+    border: 1px solid blue;
+} 
