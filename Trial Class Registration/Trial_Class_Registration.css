@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.Trial_Registration_maindiv{
+    width: 80%;
+    background-color: #f6f9ff;
+    height: 900px;
+    margin-left: 10%;
+    border: 1px solid red;
+}
