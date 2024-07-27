@@ -16,6 +16,7 @@
     padding-right: 5px;
     width: 100%;
     height: 250px;;
+    margin-top: 20px;
 }
 .Trial_Registration_Parent_Info h2{
     color: #444444;
@@ -87,14 +88,78 @@
     padding-bottom: 10px;
 }
 
-.Parent_Info_detailsothers_radio .add_radio label{
+.Parent_Info_detailsothers_radio .add_radio{
     font-size: 18px;
     color: rgb(76, 75, 75);
-    margin-bottom: 10px;
+    margin-top: 5px;
 }
 
 hr{
     width: 97%;
     margin-left: 5px;
     color: #656363;
+}
+
+.Child_Info{
+    width: 99%;
+    height: 130px;
+    /* border: 1px solid blue; */
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.Child_Info h2{
+    font-size: 25px;
+    color: #444444;
+    margin-bottom: 15px;
+}
+
+.Child_Info_details{
+    width: 31.5%;
+    height: 70px;
+    /* border: 1px solid green; */
+    float: left;
+    margin-right: 20px;
+}
+
+.Child_Info_details label{
+    font-size: 18px;
+    color: rgb(76, 75, 75);
+}
+
+.Child_Info_details input{
+    width: 377px;
+    height: 35px;
+    margin-top: 10px;
+    border-radius: 3px;
+    border: 1px solid #817e7e;
+}
+
+.Child_Info_details select{
+    width: 377px;
+    height: 35px;
+    margin-top: 10px;
+    border-radius: 3px;
+    font-size: 14px;
+    color: #656363;
+    border: 1px solid #817e7e;
+}
+
+.Child_Info_details_radio {
+    width: 99%;
+    height: 130px;
+    margin-left: 5px;
+    /* border: 1px solid green; */
+}
+.Child_Info_details_radio p{
+    margin-top: 30px;
+    font-size: 18px;
+    color: rgb(76, 75, 75);
+    margin-bottom: 10px;
+}
+
+.Child_Inforadio{
+    font-size: 18px;
+    color: rgb(76, 75, 75);
+    margin-top: 5px;
 }
