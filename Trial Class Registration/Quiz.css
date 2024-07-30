@@ -123,15 +123,124 @@
 }
 
 .left_scoreboard{
-    width: 35%;
-    height: 450px;
-    border: 1px solid green;
+    width: 30%;
+    height: 350px;
+    /* border: 1px solid green; */
+    float: left;
+    background-color: #0999a1;
+}
+
+.left_scoreboard .left_heading_scoreboard{
+    width: 100%;
+    height: 30px;
+    /* border: 1px solid green; */
+    text-align: center;
+    margin-top: 15px;
+    color: aliceblue;
+}
+
+.left_scoreboard .score{
+    width: 90%;
+    height: 30px;
+    /* border: 1px solid green; */
+    text-align: center;
+    margin-top: 15px;
+    font-size: 30px;
+    color: aliceblue;
+}
+.left_scoreboard .outof_score{
+    width: 100%;
+    height: 25px;
+    /* border: 1px solid green; */
+    text-align: center;
+    margin-top: 5px;
+    font-size: 16px;
+    color: rgb(221, 231, 240);
+}
+
+.others_text1{
+    width: 100%;
+    height: 30px;
+    /* border: 1px solid white; */
+    margin-top: 40px;
+}
+
+.others_text{
+    width: 100%;
+    height: 30px;
+    /* border: 1px solid rgb(174, 7, 7); */
+    margin-top: 10px;
+}
+
+.others_text1 .left_percentile{
+    width: 70%;
+    height: 30px;
+    padding-left: 15px;
+    line-height: 30px;
+    color: rgb(221, 231, 240);
+    font-size: 18px;
+    /* border: 1px solid white; */
+    float: left;
+}
+.others_text1 .right_percentile{
+    width: 20%;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 18px;
+    color: rgb(221, 231, 240);
+    /* border: 1px solid white; */
+    float: left;
+}
+.others_text .left_percentile{
+    width: 70%;
+    height: 30px;
+    padding-left: 15px;
+    line-height: 30px;
+    color: rgb(221, 231, 240);
+    font-size: 18px;
+    /* border: 1px solid white; */
+    float: left;
+}
+.others_text .right_percentile{
+    width: 20%;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 18px;
+    color: rgb(221, 231, 240);
+    /* border: 1px solid white; */
     float: left;
 }
 
+.left_button{
+    width: 100%;
+    height: 30px;
+    /* border: 1px solid white; */
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.left_button input{
+    width: 150px;
+    height: 30px;
+    font-size: 12px;
+    border-radius: 3px;
+    border: 1px solid white;
+    background-color: orange;
+    color: rgb(84, 77, 77);
+    
+}
+.left_button input:hover{
+    border: 1px solid white;
+    background-color: rgb(242, 240, 236);
+    color: rgb(84, 77, 77);
+    
+}
 .right_scoreboard{
-    width: 64%;
-    height: 450px;
+    width: 65%;
+    height: 350px;
+    margin-left: 40px;
     border: 1px solid rgb(0, 26, 128);
     float: left;
 }
